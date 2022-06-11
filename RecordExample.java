@@ -5,13 +5,13 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 /*
-RecordExpressionExample - Java 16
+RecordExample - Java 16
 Record are immutable
 
 
 */
 
-public class RecordExpressionExample {
+public class RecordExample {
     
     public record Employee(String name,String phoneNumber){}
     public static void main(String args[]) {
